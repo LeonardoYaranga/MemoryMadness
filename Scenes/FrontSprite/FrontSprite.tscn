@@ -1,8 +1,9 @@
 [gd_scene format=3 uid="uid://2juealdyrtgy"]
 
-[ext_resource type="Texture2D" uid="uid://b3j0html4sapu" path="res://Assets/glitch/woodworker_chassis.png" id="1_dw5qn"]
+[ext_resource type="Script" uid="uid://uk7hfnt02jlb" path="res://Scenes/FrontSprite/FrontSprite.gd" id="1_dw5qn"]
 
 [node name="FrontSprite" type="TextureRect" unique_id=2022551053]
 offset_right = 40.0
 offset_bottom = 40.0
-texture = ExtResource("1_dw5qn")
+pivot_offset_ratio = Vector2(0.5, 0.5)
+script = ExtResource("1_dw5qn")

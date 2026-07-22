@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "679f760c6ee38e5e",
+        "id": "700b79376cce4dc3",
         "type": "tabs",
         "children": [
           {
-            "id": "518ac76e830202db",
+            "id": "8edbcef564ca6825",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CHALLENGES.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "CHALLENGES"
+              "title": "New tab"
             }
           }
         ]
@@ -183,20 +179,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "518ac76e830202db",
+  "active": "8edbcef564ca6825",
   "lastOpenFiles": [
-    "Scenes/Master/Master.tscn-WJm5Rg",
-    "Scenes/Master/Master.tscn-tzr5vr",
-    "Scenes/Master/Master.tscn-VqjeTX",
-    "Scenes/Game/Game.tscn-fgLqdK",
-    "Scenes/Game/Game.tscn-ciLoUK",
-    "Scenes/Game/Game.tscn-wicNoD",
-    "Scenes/Game/Game.tscn-ehhE0b",
-    "Scenes/Game/Game.tscn-BFY9VL",
-    "Scenes/Game/Game.tscn-t1Y4HP",
-    "Scenes/Game/Game.tscn-oPu1Gv",
-    "Scenes/Game/Game.tscn-8971OZ",
+    "Scenes/MemoryTile/MemoryTile.tscn-GTXbOn",
+    "Media/TileImages.tres.png.import",
+    "Media/FrontSprites2.png.import",
+    "Media/FrontSprites2.png.import-npq5Zp",
+    "Media/FrontSprites1.png.import",
+    "Media/FrontSprites1.png",
+    "Media/FrontSprites2.png",
+    "Media/TileImages.tres.png",
     "LEARNED.md",
-    "CHALLENGES.md"
+    "README.md",
+    "Screenshot_2026-07-22_11-39-50.png.import",
+    "Screenshot_2026-07-22_11-39-44.png.import",
+    "Screenshot_2026-07-22_11-39-44.png.import-IxBMCt",
+    "Scenes/FrontSprite/FrontSprite.gd-qftMNN",
+    "Resources/TileImages.tres-lVM8ij",
+    "Scenes/FrontSprite/FrontSprite.tscn-iEl6vt",
+    "CHALLENGES.md",
+    "Media/LevelButton.png",
+    "Pasted image 20260721132447.png"
   ]
 }
