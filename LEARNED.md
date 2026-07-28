@@ -1,4 +1,7 @@
 
+# Navigation without removing the previous scene
+La transicion de interfaces se realiza ocultando y mostrando la que se requiera, no afecta el rendimiento porque se deja limpiando de nodos la escena Game que es la que mas podria abarcar, pero en general en este caso son solo dos escenas que no son tan pesadas para tener instanciadas.
+![[MasterScene.png]]
 # Resources Classes like parameters
 ## Resource for rows x columns of the board 
 Se creó una clase llamada res://Classes/LevelSetting.gd que se encarga únicamente de permitir la asignación de las variables de filas y columnas, las cuales puede usar cualquier res://Scenes/LevelButton/LevelButton.tscn de manera específica. Esta clase LevelSetting tiene métodos para calcular distintas especificaciones del tablero. Por su parte, el res://Scenes/LevelButton/LevelButton.gd muestra en su Label el contenido de filas y columnas, además de emitir una señal al ser presionado hacia el res://Scenes/Master/Master.tscn, el cual necesitará saber cierta información del tablero para crearlo y mostrarlo.
@@ -14,3 +17,17 @@ En este caso se emplearon para animar los FrontSprite y que mantengan un movimie
 ![[FrontSprites1.png|479]]
 
 ![[FrontSprites2.png|498]]
+
+
+# Select Pairs
+Aprendi a administrar los pares con el uso de seniales para saber cuando seleccionas un MemoryTile por cada seleccion con un maximo de 2 a la vez se verificara que si es un par entc se eliminan los tiles y sino pues se vuelven a dar la vuelta y puedes volver a seleccionar otro par.
+
+![[PairSelectedPrevToDisappear.png|306]]
+
+![[PairSelectedPostDisappear.png|298]]
+
+![[GameOverShowedAfterEndWithPairs.png|297]]
+# Sound Controller
+Una manera centralizada de controlar los sonidos es la escena SoundController que intanciada en la escena Master que contiene las demas escenas, puede ejecutar todas las musicas y efecto de sonido que se le desee configurar gracias al uso de las seniales previamente creadas.
+
+![[SoundController.png]]

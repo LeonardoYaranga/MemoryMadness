@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "700b79376cce4dc3",
+        "id": "38671db7fda5e5d2",
         "type": "tabs",
         "children": [
           {
-            "id": "8edbcef564ca6825",
+            "id": "01046146d1161c47",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -179,26 +183,30 @@
       "bases:Create new base": false
     }
   },
-  "active": "8edbcef564ca6825",
+  "active": "01046146d1161c47",
   "lastOpenFiles": [
-    "Scenes/MemoryTile/MemoryTile.tscn-GTXbOn",
-    "Media/TileImages.tres.png.import",
-    "Media/FrontSprites2.png.import",
-    "Media/FrontSprites2.png.import-npq5Zp",
-    "Media/FrontSprites1.png.import",
-    "Media/FrontSprites1.png",
-    "Media/FrontSprites2.png",
-    "Media/TileImages.tres.png",
-    "LEARNED.md",
+    "Media/MemoryMadnessv1.0.0.mp4",
     "README.md",
-    "Screenshot_2026-07-22_11-39-50.png.import",
-    "Screenshot_2026-07-22_11-39-44.png.import",
-    "Screenshot_2026-07-22_11-39-44.png.import-IxBMCt",
-    "Scenes/FrontSprite/FrontSprite.gd-qftMNN",
-    "Resources/TileImages.tres-lVM8ij",
-    "Scenes/FrontSprite/FrontSprite.tscn-iEl6vt",
+    "Media/MemoryMadnessv1.0.0 1.mp4",
+    "project.godot-V7CTSK",
+    "project.godot-L60Dp5",
+    "project.godot-aaHQGM",
+    "project.godot-1KKs9q",
+    "Media/PairSelected.png.import",
+    "Media/MasterScene.png.import",
+    "LEARNED.md",
     "CHALLENGES.md",
-    "Media/LevelButton.png",
-    "Pasted image 20260721132447.png"
+    "Media/PairSelected.png",
+    "Media/MasterScene.png",
+    "Screenshot_2026-07-28_03-57-29.png.import",
+    "Media/SoundController.png.import",
+    "Media/SoundController.png",
+    "Media/PairSelectedPostDisappear.png",
+    "Media/PairSelectedPrevToDisappear.png",
+    "Media/GameOverShowedAfterEndWithPairs.png",
+    "Screenshot_2026-07-27_13-18-41.png",
+    "Media/TileImages.tres.png",
+    "Media/FrontSprites1.png",
+    "Media/FrontSprites2.png"
   ]
 }

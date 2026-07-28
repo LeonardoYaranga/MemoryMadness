@@ -1,0 +1,3 @@
+# Complex Pairs Logic
+La logica de manejar la ocultacion y seleccion de cuadros de memoria, detectando cuando eran pares y poder eliminarlos fue complejo por la cantidad de eventos que se debian controlar, lo cual requirio trabajar con un res://Globals/SignalHub.gd el cual centralizo la coneccion a esos eventos que varias otras clases usarian para actualizar la UI o aplicar sonidos.
+![[PairSelected.png]]

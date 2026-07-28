@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://calhgngfctiie"]
+
+[ext_resource type="LabelSettings" uid="uid://xtbgofn3tw5s" path="res://Resources/TitleLabel.tres" id="1_8nicn"]
+[ext_resource type="Script" uid="uid://dg7pvu3j8hng5" path="res://Scenes/GameOverUi/GameOverUi.gd" id="1_mdbud"]
+[ext_resource type="FontFile" uid="uid://c2gt4q4ev7wj1" path="res://Assets/fonts/LuckiestGuy-Regular.ttf" id="2_mdbud"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8nicn"]
+content_margin_left = 10.0
+content_margin_top = 10.0
+content_margin_right = 10.0
+content_margin_bottom = 10.0
+bg_color = Color(0.08968919, 0.11157142, 0.023946662, 0.6)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+corner_detail = 5
+
+[sub_resource type="LabelSettings" id="LabelSettings_byt08"]
+font = ExtResource("2_mdbud")
+font_size = 56
+font_color = Color(0.8359386, 0.2687045, 0, 1)
+outline_size = 8
+outline_color = Color(0.57546675, 0.55052847, 0.32283407, 1)
+
+[node name="GameOverUi" type="PanelContainer" unique_id=1164899596]
+offset_right = 375.0
+offset_bottom = 158.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_8nicn")
+script = ExtResource("1_mdbud")
+
+[node name="VB" type="VBoxContainer" parent="." unique_id=1934226508]
+layout_mode = 2
+
+[node name="WinLabel" type="Label" parent="VB" unique_id=1310653881]
+layout_mode = 2
+text = "YOU WIN"
+label_settings = ExtResource("1_8nicn")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MovesLabel" type="Label" parent="VB" unique_id=1655584073]
+layout_mode = 2
+text = "dqwdwqdq"
+label_settings = SubResource("LabelSettings_byt08")
+horizontal_alignment = 1
+vertical_alignment = 1
